@@ -10,7 +10,7 @@
       in {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            ruby_3_1
+            ruby_2_7
           ];
         };
       }
